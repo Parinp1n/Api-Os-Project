@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Country Calling Code</title>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="search_box">
+            <div class="dropdown">
+                <div class="default_option">Search From</div>
+                <ul id="list">
+                    <li>Country Name</li>
+                    <li>Calling Code</li>
+                </ul>
+            </div>
+            <div class="search_field">
+                <input type="text" class="input" id="inputtxt" placeholder="Search">
+                <i type="button" class="fas fa-search" id="searchbutton"></i>
+            </div>
+        </div>
+    </div>
+    <div class="modal-box" id="modalbox">
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        $(".default_option").click(function () {
+            $(".dropdown ul").addClass("active");
+        });
+        $(".dropdown ul li").click(function () {
+            var text = $(this).text();
+            $(".default_option").text(text);
+            $(".dropdown ul").removeClass("active");
+        });
+        var items = document.querySelectorAll("#list li"),
+            tab = [];
+        var index = 0;
+        for (var i = 0; i < items.length; i++) {
+            tab.push(items[i].innerHTML);
+        }
+        for (var i = 0; i < items.length; i++) {
+            items[i].onclick = function () {
+                index = tab.indexOf(this.innerHTML);
+                console.log(this.innerHTML + " Index = " + index);
+            };
+        }
+        $("#searchbutton").click(function () {
+            if (index == 1) {
+                console.log(this.innerHTML + "search Index = " + 1);
+                getByCode();
+            }
+            else if (index == 0) {
+                console.log(this.innerHTML + "search Index = " + 0);
+                getbyCountry();
+            }
+        });
+        //get by calling code
+        function getByCode() {
+            $.ajax({
+                method: 'get',
+                url: '/api/getCountry/' + $("#inputtxt").val(),
+                success: (response) => {
+                    console.log('good', response)
+                    if (response.RespCode == 200) {
+                        data = response.Result;
+                        console.log(typeof data);
+                        var html = '';
+                        html += `<div class="modal-boxinside">`;
+                        for (let i = 0; i < data.length; i++) {
+                            html += `
+                                <h3>${data[i]}</h3>
+                                `;
+                        }
+                        html += `<h2>click 'ok' to close</h2>
+                                <div class="buttons" >
+                                <button class="close-btn" id="ok">OK</button>
+                                </div>  
+                                </div>`;
+                        $("#modalbox").html(html);
+                        $("#ok").click(function () {
+                            $("#modalbox").empty();
+                        });
+
+                    } else {
+                        var html = '';
+                        html += `<div class="modal-boxinside">
+                                <h3>Invalid Input</h3>
+                                <h2>click 'ok' to close</h2>
+                                <div class="buttons" >
+                                <button class="close-btn" id="ok">OK</button>
+                                </div>  
+                                </div>`;
+                        $("#modalbox").html(html);
+                        $("#ok").click(function () {
+                            $("#modalbox").empty();
+                        });
+
+                    }
+                }, error: (err) => {
+                    console.log('bad', err)
+                }
+            })
+        }
+        //get by country
+        function getbyCountry() {
+            $.ajax({
+                method: 'get',
+                url: '/api/getCallingCode/' + $("#inputtxt").val(),
+                success: (response) => {
+                    console.log('good', response)
+                    if (response.RespCode == 200) {
+                        data = response.Result;
+                        if (data.length > 0) {
+                            var html = '';
+                            html += `<div class="modal-boxinside">`;
+                            for (let i = 0; i < data.length; i++) {
+                                html += `
+                                <h3>${data[i]}</h3>
+                                `;
+                                console.log(data[i]);
+                            }
+                            html += `<h2>click 'ok' to close</h2>
+                                <div class="buttons" >
+                                <button class="close-btn" id="ok">OK</button>
+                                </div>  
+                                </div>`;
+                            $("#modalbox").html(html);
+                            $("#ok").click(function () {
+                                $("#modalbox").empty();
+                            });
+                        }
+                    } else {
+                        var html = '';
+                        html += `<div class="modal-boxinside">
+                                <h3>Invalid Input</h3>
+                                <h2>click 'ok' to close</h2>
+                                <div class="buttons" >
+                                <button class="close-btn" id="ok">OK</button>
+                                </div>  
+                                </div>`;
+                        $("#modalbox").html(html);
+                        $("#ok").click(function () {
+                            $("#modalbox").empty();
+                        });
+                    }
+                }, error: (err) => {
+                    console.log('bad', err)
+                }
+            })
+        }
+    });
+</script>
+
+</html>
