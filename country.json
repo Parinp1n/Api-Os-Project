@@ -1,0 +1,976 @@
+{
+    "Country": [
+        {
+            "CountryName": "Afghanistan",
+            "CountryCallingCode": "+93"
+        },
+        {
+            "CountryNasme": "Albania",
+            "CountryCallingCode": "+355"
+        },
+        {
+            "CountryName": "Algeria",
+            "CountryCallingCode": "+213"
+        },
+        {
+            "CountryName": "American Samoa",
+            "CountryCallingCode": "+1-684"
+        },
+        {
+            "CountryName": "Andorra",
+            "CountryCallingCode": "+376"
+        },
+        {
+            "CountryName": "Angola",
+            "CountryCallingCode": "+244"
+        },
+        {
+            "CountryName": "Anguilla",
+            "CountryCallingCode": "+1-264"
+        },
+        {
+            "CountryName": "Antarctica",
+            "CountryCallingCode": "+672"
+        },
+        {
+            "CountryName": "Antigua and Barbuda",
+            "CountryCallingCode": "+1-268"
+        },
+        {
+            "CountryName": "Argentina",
+            "CountryCallingCode": "+54"
+        },
+        {
+            "CountryName": "Armenia",
+            "CountryCallingCode": "+374"
+        },
+        {
+            "CountryName": "Aruba",
+            "CountryCallingCode": "+297"
+        },
+        {
+            "CountryName": "Australia",
+            "CountryCallingCode": "+61"
+        },
+        {
+            "CountryName": "Austria",
+            "CountryCallingCode": "+43"
+        },
+        {
+            "CountryName": "Azerbaijan",
+            "CountryCallingCode": "+994"
+        },
+        {
+            "CountryName": "Bahamas",
+            "CountryCallingCode": "+1-242"
+        },
+        {
+            "CountryName": "Bahrain",
+            "CountryCallingCode": "+973"
+        },
+        {
+            "CountryName": "Bangladesh",
+            "CountryCallingCode": "+880"
+        },
+        {
+            "CountryName": "Barbados",
+            "CountryCallingCode": "+1-246"
+        },
+        {
+            "CountryName": "Belarus",
+            "CountryCallingCode": "+375"
+        },
+        {
+            "CountryName": "Belgium",
+            "CountryCallingCode": "+32"
+        },
+        {
+            "CountryName": "Belize",
+            "CountryCallingCode": "+501"
+        },
+        {
+            "CountryName": "Benin",
+            "CountryCallingCode": "+229"
+        },
+        {
+            "CountryName": "Bermuda",
+            "CountryCallingCode": "+1-441"
+        },
+        {
+            "CountryName": "Bhutan",
+            "CountryCallingCode": "+975"
+        },
+        {
+            "CountryName": "Bolivia",
+            "CountryCallingCode": "+591"
+        },
+        {
+            "CountryName": "Bosnia and Herzegovina",
+            "CountryCallingCode": "+387"
+        },
+        {
+            "CountryName": "Botswana",
+            "CountryCallingCode": "+267"
+        },
+        {
+            "CountryName": "Brazil",
+            "CountryCallingCode": "+55"
+        },
+        {
+            "CountryName": "British Indian Ocean Territory",
+            "CountryCallingCode": "+246"
+        },
+        {
+            "CountryName": "British Virgin Islands",
+            "CountryCallingCode": "+1-284"
+        },
+        {
+            "CountryName": "Brunei",
+            "CountryCallingCode": "+673"
+        },
+        {
+            "CountryName": "Bulgaria",
+            "CountryCallingCode": "+359"
+        },
+        {
+            "CountryName": "Burkina Faso",
+            "CountryCallingCode": "+226"
+        },
+        {
+            "CountryName": "Burundi",
+            "CountryCallingCode": "+257"
+        },
+        {
+            "CountryName": "Cambodia",
+            "CountryCallingCode": "+855"
+        },
+        {
+            "CountryName": "Cameroon",
+            "CountryCallingCode": "+237"
+        },
+        {
+            "CountryName": "Canada",
+            "CountryCallingCode": "+1"
+        },
+        {
+            "CountryName": "Cape Verde",
+            "CountryCallingCode": "+238"
+        },
+        {
+            "CountryName": "Cayman Islands",
+            "CountryCallingCode": "+1-345"
+        },
+        {
+            "CountryName": "Central African Republic",
+            "CountryCallingCode": "+236"
+        },
+        {
+            "CountryName": "Chad",
+            "CountryCallingCode": "+235"
+        },
+        {
+            "CountryName": "Chile",
+            "CountryCallingCode": "+56"
+        },
+        {
+            "CountryName": "China",
+            "CountryCallingCode": "+86"
+        },
+        {
+            "CountryName": "Christmas Island",
+            "CountryCallingCode": "+61"
+        },
+        {
+            "CountryName": "Cocos Islands",
+            "CountryCallingCode": "+61"
+        },
+        {
+            "CountryName": "Colombia",
+            "CountryCallingCode": "+57"
+        },
+        {
+            "CountryName": "Comoros",
+            "CountryCallingCode": "+269"
+        },
+        {
+            "CountryName": "Cook Islands",
+            "CountryCallingCode": "+682"
+        },
+        {
+            "CountryName": "Costa Rica",
+            "CountryCallingCode": "+506"
+        },
+        {
+            "CountryName": "Croatia",
+            "CountryCallingCode": "+385"
+        },
+        {
+            "CountryName": "Cuba",
+            "CountryCallingCode": "+53"
+        },
+        {
+            "CountryName": "Curacao",
+            "CountryCallingCode": "+599"
+        },
+        {
+            "CountryName": "Cyprus",
+            "CountryCallingCode": "+357"
+        },
+        {
+            "CountryName": "Czech Republic",
+            "CountryCallingCode": "+420"
+        },
+        {
+            "CountryName": "Democratic Republic of the Congo",
+            "CountryCallingCode": "+243"
+        },
+        {
+            "CountryName": "Denmark",
+            "CountryCallingCode": "+45"
+        },
+        {
+            "CountryName": "Djibouti",
+            "CountryCallingCode": "+253"
+        },
+        {
+            "CountryName": "Dominica",
+            "CountryCallingCode": "+1-767"
+        },
+        {
+            "CountryName": "Dominican Republic",
+            "CountryCallingCode": "+1-809"
+        },
+        {
+            "CountryName": "Dominican Republic",
+            "CountryCallingCode": "+1-829 "
+        },
+        {
+            "CountryName": "Dominican Republic",
+            "CountryCallingCode": "+1-849"
+        },
+        {
+            "CountryName": "East Timor",
+            "CountryCallingCode": "+670"
+        },
+        {
+            "CountryName": "Ecuador",
+            "CountryCallingCode": "+593"
+        },
+        {
+            "CountryName": "Egypt",
+            "CountryCallingCode": "+20"
+        },
+        {
+            "CountryName": "El Salvador",
+            "CountryCallingCode": "+503"
+        },
+        {
+            "CountryName": "Equatorial Guinea",
+            "CountryCallingCode": "+240"
+        },
+        {
+            "CountryName": "Eritrea",
+            "CountryCallingCode": "+291"
+        },
+        {
+            "CountryName": "Estonia",
+            "CountryCallingCode": "+372"
+        },
+        {
+            "CountryName": "Ethiopia",
+            "CountryCallingCode": "+251"
+        },
+        {
+            "CountryName": "Falkland Islands",
+            "CountryCallingCode": "+500"
+        },
+        {
+            "CountryName": "Faroe Islands",
+            "CountryCallingCode": "+298"
+        },
+        {
+            "CountryName": "Fiji",
+            "CountryCallingCode": "+679"
+        },
+        {
+            "CountryName": "Finland",
+            "CountryCallingCode": "+358"
+        },
+        {
+            "CountryName": "France",
+            "CountryCallingCode": "+33"
+        },
+        {
+            "CountryName": "French Polynesia",
+            "CountryCallingCode": "+689"
+        },
+        {
+            "CountryName": "Gabon",
+            "CountryCallingCode": "+241"
+        },
+        {
+            "CountryName": "Gambia",
+            "CountryCallingCode": "+220"
+        },
+        {
+            "CountryName": "Georgia",
+            "CountryCallingCode": "+995"
+        },
+        {
+            "CountryName": "Germany",
+            "CountryCallingCode": "+49"
+        },
+        {
+            "CountryName": "Ghana",
+            "CountryCallingCode": "+233"
+        },
+        {
+            "CountryName": "Gibraltar",
+            "CountryCallingCode": "+350"
+        },
+        {
+            "CountryName": "Greece",
+            "CountryCallingCode": "+30"
+        },
+        {
+            "CountryName": "Greenland",
+            "CountryCallingCode": "+299"
+        },
+        {
+            "CountryName": "Grenada",
+            "CountryCallingCode": "+1-473"
+        },
+        {
+            "CountryName": "Guam",
+            "CountryCallingCode": "+1-671"
+        },
+        {
+            "CountryName": "Guatemala",
+            "CountryCallingCode": "+502"
+        },
+        {
+            "CountryName": "Guernsey",
+            "CountryCallingCode": "+44-1481"
+        },
+        {
+            "CountryName": "Guinea",
+            "CountryCallingCode": "+224"
+        },
+        {
+            "CountryName": "Guinea-Bissau",
+            "CountryCallingCode": "+245"
+        },
+        {
+            "CountryName": "Guyana",
+            "CountryCallingCode": "+592"
+        },
+        {
+            "CountryName": "Haiti",
+            "CountryCallingCode": "+509"
+        },
+        {
+            "CountryName": "Honduras",
+            "CountryCallingCode": "+504"
+        },
+        {
+            "CountryName": "Hong Kong",
+            "CountryCallingCode": "+852"
+        },
+        {
+            "CountryName": "Hungary",
+            "CountryCallingCode": "+36"
+        },
+        {
+            "CountryName": "Iceland",
+            "CountryCallingCode": "+354"
+        },
+        {
+            "CountryName": "India",
+            "CountryCallingCode": "+91"
+        },
+        {
+            "CountryName": "Indonesia",
+            "CountryCallingCode": "+62"
+        },
+        {
+            "CountryName": "Iran",
+            "CountryCallingCode": "+98"
+        },
+        {
+            "CountryName": "Iraq",
+            "CountryCallingCode": "+964"
+        },
+        {
+            "CountryName": "Ireland",
+            "CountryCallingCode": "+353"
+        },
+        {
+            "CountryName": "Isle of Man",
+            "CountryCallingCode": "+44-1624"
+        },
+        {
+            "CountryName": "Israel",
+            "CountryCallingCode": "+972"
+        },
+        {
+            "CountryName": "Italy",
+            "CountryCallingCode": "+39"
+        },
+        {
+            "CountryName": "Ivory Coast",
+            "CountryCallingCode": "+225"
+        },
+        {
+            "CountryName": "Jamaica",
+            "CountryCallingCode": "+1-876"
+        },
+        {
+            "CountryName": "Japan",
+            "CountryCallingCode": "+81"
+        },
+        {
+            "CountryName": "Jersey",
+            "CountryCallingCode": "+44-1534"
+        },
+        {
+            "CountryName": "Jordan",
+            "CountryCallingCode": "+962"
+        },
+        {
+            "CountryName": "Kazakhstan",
+            "CountryCallingCode": "+7"
+        },
+        {
+            "CountryName": "Kenya",
+            "CountryCallingCode": "+254"
+        },
+        {
+            "CountryName": "Kiribati",
+            "CountryCallingCode": "+686"
+        },
+        {
+            "CountryName": "Kosovo",
+            "CountryCallingCode": "+383"
+        },
+        {
+            "CountryName": "Kuwait",
+            "CountryCallingCode": "+965"
+        },
+        {
+            "CountryName": "Kyrgyzstan",
+            "CountryCallingCode": "+996"
+        },
+        {
+            "CountryName": "Laos",
+            "CountryCallingCode": "+856"
+        },
+        {
+            "CountryName": "Latvia",
+            "CountryCallingCode": "+371"
+        },
+        {
+            "CountryName": "Lebanon",
+            "CountryCallingCode": "+961"
+        },
+        {
+            "CountryName": "Lesotho",
+            "CountryCallingCode": "+266"
+        },
+        {
+            "CountryName": "Liberia",
+            "CountryCallingCode": "+231"
+        },
+        {
+            "CountryName": "Libya",
+            "CountryCallingCode": "+218"
+        },
+        {
+            "CountryName": "Liechtenstein",
+            "CountryCallingCode": "+423"
+        },
+        {
+            "CountryName": "Lithuania",
+            "CountryCallingCode": "+370"
+        },
+        {
+            "CountryName": "Luxembourg",
+            "CountryCallingCode": "+352"
+        },
+        {
+            "CountryName": "Macau",
+            "CountryCallingCode": "+853"
+        },
+        {
+            "CountryName": "Macedonia",
+            "CountryCallingCode": "+389"
+        },
+        {
+            "CountryName": "Madagascar",
+            "CountryCallingCode": "+261"
+        },
+        {
+            "CountryName": "Malawi",
+            "CountryCallingCode": "+265"
+        },
+        {
+            "CountryName": "Malaysia",
+            "CountryCallingCode": "+60"
+        },
+        {
+            "CountryName": "Maldives",
+            "CountryCallingCode": "+960"
+        },
+        {
+            "CountryName": "Mali",
+            "CountryCallingCode": "+223"
+        },
+        {
+            "CountryName": "Malta",
+            "CountryCallingCode": "+356"
+        },
+        {
+            "CountryName": "Marshall Islands",
+            "CountryCallingCode": "+692"
+        },
+        {
+            "CountryName": "Mauritania",
+            "CountryCallingCode": "+222"
+        },
+        {
+            "CountryName": "Mauritius",
+            "CountryCallingCode": "+230"
+        },
+        {
+            "CountryName": "Mayotte",
+            "CountryCallingCode": "+262"
+        },
+        {
+            "CountryName": "Mexico",
+            "CountryCallingCode": "+52"
+        },
+        {
+            "CountryName": "Micronesia",
+            "CountryCallingCode": "+691"
+        },
+        {
+            "CountryName": "Moldova",
+            "CountryCallingCode": "+373"
+        },
+        {
+            "CountryName": "Monaco",
+            "CountryCallingCode": "+377"
+        },
+        {
+            "CountryName": "Mongolia",
+            "CountryCallingCode": "+976"
+        },
+        {
+            "CountryName": "Montenegro",
+            "CountryCallingCode": "+382"
+        },
+        {
+            "CountryName": "Montserrat",
+            "CountryCallingCode": "+1-664"
+        },
+        {
+            "CountryName": "Morocco",
+            "CountryCallingCode": "+212"
+        },
+        {
+            "CountryName": "Mozambique",
+            "CountryCallingCode": "+258"
+        },
+        {
+            "CountryName": "Myanmar",
+            "CountryCallingCode": "+95"
+        },
+        {
+            "CountryName": "Namibia",
+            "CountryCallingCode": "+264"
+        },
+        {
+            "CountryName": "Nauru",
+            "CountryCallingCode": "+674"
+        },
+        {
+            "CountryName": "Nepal",
+            "CountryCallingCode": "+977"
+        },
+        {
+            "CountryName": "Netherlands",
+            "CountryCallingCode": "+31"
+        },
+        {
+            "CountryName": "Netherlands Antilles",
+            "CountryCallingCode": "+599"
+        },
+        {
+            "CountryName": "New Caledonia",
+            "CountryCallingCode": "+687"
+        },
+        {
+            "CountryName": "New Zealand",
+            "CountryCallingCode": "+64"
+        },
+        {
+            "CountryName": "Nicaragua",
+            "CountryCallingCode": "+505"
+        },
+        {
+            "CountryName": "Niger",
+            "CountryCallingCode": "+227"
+        },
+        {
+            "CountryName": "Nigeria",
+            "CountryCallingCode": "+234"
+        },
+        {
+            "CountryName": "Niue",
+            "CountryCallingCode": "+683"
+        },
+        {
+            "CountryName": "North Korea",
+            "CountryCallingCode": "+850"
+        },
+        {
+            "CountryName": "Northern Mariana Islands",
+            "CountryCallingCode": "+1-670"
+        },
+        {
+            "CountryName": "Norway",
+            "CountryCallingCode": "+47"
+        },
+        {
+            "CountryName": "Oman",
+            "CountryCallingCode": "+968"
+        },
+        {
+            "CountryName": "Pakistan",
+            "CountryCallingCode": "+92"
+        },
+        {
+            "CountryName": "Palau",
+            "CountryCallingCode": "+680"
+        },
+        {
+            "CountryName": "Palestine",
+            "CountryCallingCode": "+970"
+        },
+        {
+            "CountryName": "Panama",
+            "CountryCallingCode": "+507"
+        },
+        {
+            "CountryName": "Papua New Guinea",
+            "CountryCallingCode": "+675"
+        },
+        {
+            "CountryName": "Paraguay",
+            "CountryCallingCode": "+595"
+        },
+        {
+            "CountryName": "Peru",
+            "CountryCallingCode": "+51"
+        },
+        {
+            "CountryName": "Philippines",
+            "CountryCallingCode": "+63"
+        },
+        {
+            "CountryName": "Pitcairn",
+            "CountryCallingCode": "+64"
+        },
+        {
+            "CountryName": "Poland",
+            "CountryCallingCode": "+48"
+        },
+        {
+            "CountryName": "Portugal",
+            "CountryCallingCode": "+351"
+        },
+        {
+            "CountryName": "Puerto Rico",
+            "CountryCallingCode": "+1-787"
+        },
+        {
+            "CountryName": "Puerto Rico",
+            "CountryCallingCode": "+1-939"
+        },
+        {
+            "CountryName": "Qatar",
+            "CountryCallingCode": "+974"
+        },
+        {
+            "CountryName": "Republic of the Congo",
+            "CountryCallingCode": "+242"
+        },
+        {
+            "CountryName": "Reunion",
+            "CountryCallingCode": "+262"
+        },
+        {
+            "CountryName": "Romania",
+            "CountryCallingCode": "+40"
+        },
+        {
+            "CountryName": "Russia",
+            "CountryCallingCode": "+7"
+        },
+        {
+            "CountryName": "Rwanda",
+            "CountryCallingCode": "+250"
+        },
+        {
+            "CountryName": "Saint Barthelemy",
+            "CountryCallingCode": "+590"
+        },
+        {
+            "CountryName": "Saint Helena",
+            "CountryCallingCode": "+290"
+        },
+        {
+            "CountryName": "Saint Kitts and Nevis",
+            "CountryCallingCode": "+1-869"
+        },
+        {
+            "CountryName": "Saint Lucia",
+            "CountryCallingCode": "+1-758"
+        },
+        {
+            "CountryName": "Saint Martin",
+            "CountryCallingCode": "+590"
+        },
+        {
+            "CountryName": "Saint Pierre and Miquelon",
+            "CountryCallingCode": "+508"
+        },
+        {
+            "CountryName": "Saint Vincent and the Grenadines",
+            "CountryCallingCode": "+1-784"
+        },
+        {
+            "CountryName": "Samoa",
+            "CountryCallingCode": "+685"
+        },
+        {
+            "CountryName": "San Marino",
+            "CountryCallingCode": "+378"
+        },
+        {
+            "CountryName": "Sao Tome and Principe",
+            "CountryCallingCode": "+239"
+        },
+        {
+            "CountryName": "Saudi Arabia",
+            "CountryCallingCode": "+966"
+        },
+        {
+            "CountryName": "Senegal",
+            "CountryCallingCode": "+221"
+        },
+        {
+            "CountryName": "Serbia",
+            "CountryCallingCode": "+381"
+        },
+        {
+            "CountryName": "Seychelles",
+            "CountryCallingCode": "+248"
+        },
+        {
+            "CountryName": "Sierra Leone",
+            "CountryCallingCode": "+232"
+        },
+        {
+            "CountryName": "Singapore",
+            "CountryCallingCode": "+65"
+        },
+        {
+            "CountryName": "Sint Maarten",
+            "CountryCallingCode": "+1-721"
+        },
+        {
+            "CountryName": "Slovakia",
+            "CountryCallingCode": "+421"
+        },
+        {
+            "CountryName": "Slovenia",
+            "CountryCallingCode": "+386"
+        },
+        {
+            "CountryName": "Solomon Islands",
+            "CountryCallingCode": "+677"
+        },
+        {
+            "CountryName": "Somalia",
+            "CountryCallingCode": "+252"
+        },
+        {
+            "CountryName": "South Africa",
+            "CountryCallingCode": "+27"
+        },
+        {
+            "CountryName": "South Korea",
+            "CountryCallingCode": "+82"
+        },
+        {
+            "CountryName": "South Sudan",
+            "CountryCallingCode": "+211"
+        },
+        {
+            "CountryName": "Spain",
+            "CountryCallingCode": "+34"
+        },
+        {
+            "CountryName": "Sri Lanka",
+            "CountryCallingCode": "+94"
+        },
+        {
+            "CountryName": "Sudan",
+            "CountryCallingCode": "+249"
+        },
+        {
+            "CountryName": "Suriname",
+            "CountryCallingCode": "+597"
+        },
+        {
+            "CountryName": "Svalbard and Jan Mayen",
+            "CountryCallingCode": "+47"
+        },
+        {
+            "CountryName": "Swaziland",
+            "CountryCallingCode": "+268"
+        },
+        {
+            "CountryName": "Sweden",
+            "CountryCallingCode": "+46"
+        },
+        {
+            "CountryName": "Switzerland",
+            "CountryCallingCode": "+41"
+        },
+        {
+            "CountryName": "Syria",
+            "CountryCallingCode": "+963"
+        },
+        {
+            "CountryName": "Taiwan",
+            "CountryCallingCode": "+886"
+        },
+        {
+            "CountryName": "Tajikistan",
+            "CountryCallingCode": "+992"
+        },
+        {
+            "CountryName": "Tanzania",
+            "CountryCallingCode": "+255"
+        },
+        {
+            "CountryName": "Thailand",
+            "CountryCallingCode": "+66"
+        },
+        {
+            "CountryName": "Togo",
+            "CountryCallingCode": "+228"
+        },
+        {
+            "CountryName": "Tokelau",
+            "CountryCallingCode": "+690"
+        },
+        {
+            "CountryName": "Tonga",
+            "CountryCallingCode": "+676"
+        },
+        {
+            "CountryName": "Trinidad and Tobago",
+            "CountryCallingCode": "+1-868"
+        },
+        {
+            "CountryName": "Tunisia",
+            "CountryCallingCode": "+216"
+        },
+        {
+            "CountryName": "Turkey",
+            "CountryCallingCode": "+90"
+        },
+        {
+            "CountryName": "Turkmenistan",
+            "CountryCallingCode": "+993"
+        },
+        {
+            "CountryName": "Turks and Caicos Islands",
+            "CountryCallingCode": "+1-649"
+        },
+        {
+            "CountryName": "Tuvalu",
+            "CountryCallingCode": "+688"
+        },
+        {
+            "CountryName": "U.S. Virgin Islands",
+            "CountryCallingCode": "+1-340"
+        },
+        {
+            "CountryName": "Uganda",
+            "CountryCallingCode": "+256"
+        },
+        {
+            "CountryName": "Ukraine",
+            "CountryCallingCode": "+380"
+        },
+        {
+            "CountryName": "United Arab Emirates",
+            "CountryCallingCode": "+971"
+        },
+        {
+            "CountryName": "United Kingdom",
+            "CountryCallingCode": "+44"
+        },
+        {
+            "CountryName": "United States",
+            "CountryCallingCode": "+1"
+        },
+        {
+            "CountryName": "Uruguay",
+            "CountryCallingCode": "+598"
+        },
+        {
+            "CountryName": "Uzbekistan",
+            "CountryCallingCode": "+998"
+        },
+        {
+            "CountryName": "Vanuatu",
+            "CountryCallingCode": "+678"
+        },
+        {
+            "CountryName": "Vatican",
+            "CountryCallingCode": "+379"
+        },
+        {
+            "CountryName": "Venezuela",
+            "CountryCallingCode": "+58"
+        },
+        {
+            "CountryName": "Vietnam",
+            "CountryCallingCode": "+84"
+        },
+        {
+            "CountryName": "Wallis and Futuna",
+            "CountryCallingCode": "+681"
+        },
+        {
+            "CountryName": "Western Sahara",
+            "CountryCallingCode": "+212"
+        },
+        {
+            "CountryName": "Yemen",
+            "CountryCallingCode": "+967"
+        },
+        {
+            "CountryName": "Zambia",
+            "CountryCallingCode": "+260"
+        },
+        {
+            "CountryName": "Zimbabwe",
+            "CountryCallingCode": "+263"
+        }
+    ]
+}
